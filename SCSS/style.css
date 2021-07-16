@@ -6,8 +6,9 @@
 
 .header-section {
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#09052f)), url(/images/header.png) center no-repeat;
-  background: linear-gradient(#09052f), url(/images/header.png) center no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 5, 47, 0.6))), url(/images/header.png) center no-repeat;
+  background: linear-gradient(rgba(9, 5, 47, 0.6)), url(/images/header.png) center no-repeat;
+  height: 76%;
 }
 
 .header {
@@ -56,6 +57,9 @@
     width: 60%;
     margin: 0 auto;
   }
+  .logo {
+    margin-left: .9rem;
+  }
   .navlist {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -92,5 +96,16 @@
   line-height: 1.7rem;
   letter-spacing: .5px;
   font-weight: 100;
+}
+
+.cta {
+  color: #00e0d0 !important;
+  border-color: #00e0d0 !important;
+  width: 7.8rem !important;
+  height: 2.5rem;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px !important;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

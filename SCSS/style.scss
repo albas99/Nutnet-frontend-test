@@ -13,8 +13,9 @@ $third-color: rgb(255, 255, 255);
 
 .header-section {
     width: 100%;
-    background: linear-gradient($first-color),
+    background: linear-gradient(rgba(9, 5, 47, 0.6)),
         url(/images/header.png) center no-repeat;
+    height: 76%;
     }
 
     .header{
@@ -60,6 +61,10 @@ $third-color: rgb(255, 255, 255);
         margin: 0 auto;
     }
 
+    .logo{
+        margin-left: .9rem;
+    }
+
     .navlist{
         display: flex;
         margin-top: 1rem;
@@ -97,4 +102,15 @@ $third-color: rgb(255, 255, 255);
     line-height: 1.7rem;
     letter-spacing: .5px;
     font-weight: 100;
+}
+
+.cta{
+    color: $second-color !important;
+    border-color: $second-color !important;
+    width: 7.8rem !important;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-family: $first-font;
+    font-size: 16px !important;
+    text-align: center;
 }
