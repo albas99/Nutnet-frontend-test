@@ -40,6 +40,7 @@ $third-color: rgb(255, 255, 255);
      font-size: 13px;
      font-weight: 600;
      transition: all ease;
+     text-transform: uppercase;
  }
 
  .active{
@@ -65,7 +66,7 @@ $third-color: rgb(255, 255, 255);
     }
 
     .navlinks{
-        padding-right: 2rem;
+        padding-right: 1.5rem;
     }
 
     .nav-icon{
@@ -78,6 +79,22 @@ $third-color: rgb(255, 255, 255);
     font-family: $second-font;
     font-size: 33px;
     font-weight: 700;
-    margin: 6.3rem 0;
+    margin-top: 6.3rem;
     color: $third-color;
+}
+
+.separator{
+    border: 1px solid $second-color;
+    width: 3rem;
+    margin: 20px auto;
+}
+
+.hero-paragraph{
+    width: 62%;
+    font-family: $first-font;
+    font-size: 14px;
+    color: $third-color;
+    line-height: 1.7rem;
+    letter-spacing: .5px;
+    font-weight: 100;
 }
