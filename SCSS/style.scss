@@ -114,3 +114,34 @@ $third-color: rgb(255, 255, 255);
     font-size: 16px !important;
     text-align: center;
 }
+
+// MAIN CONTENT SECTION
+
+.about-container{
+    width: 60% !important;
+    padding: 2.7rem 0;
+    padding-left: 3.4rem !important;
+}
+.heading{
+    font-family: $second-font;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-left: 3.7rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.our-story{
+    font-family: $first-font;
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: .7rem;
+    padding-left: 3rem;
+    // letter-spacing: .8px;
+}
+
+.video-container{
+    background: linear-gradient(rgba(9, 5, 47, 0.6)),
+    url(/images/video-bg.png) center no-repeat;
+    height: 100%;
+}
