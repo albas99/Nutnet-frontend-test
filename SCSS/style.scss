@@ -7,8 +7,8 @@ $second-color: rgb(0, 224, 208);
 $third-color: rgb(255, 255, 255);
 
 .page{
-    width: 100%;
-    height: 100vh;
+    width: 100% !important;
+    height: 100vh !important;
 }
 
 .header-section {
@@ -44,7 +44,7 @@ $third-color: rgb(255, 255, 255);
      text-transform: uppercase;
  }
 
- .active{
+ .active-navlink{
      color: $second-color;
  }
 
@@ -290,3 +290,250 @@ $third-color: rgb(255, 255, 255);
     }
 }
 
+.team-section{
+    width: 100%;
+    background: linear-gradient(rgba(9, 5, 47, 0.6)),
+    url(/images/team-bg.png) center no-repeat;
+    margin-top: 7rem !important;
+}
+
+.team{
+    font-family: $second-font;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $third-color;
+    letter-spacing: 1.3px;
+}
+
+.team-separator{
+    border: 1px solid $third-color;
+    width: 3rem !important;
+    margin: 0 auto !important;
+}
+
+.team-heading{
+    padding-top: 4rem;
+}
+
+.team-text{
+    color: $third-color;
+    font-family: $second-font;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.member-block{
+    width: 63% !important;
+    margin-top: 3rem !important;
+    margin-bottom: 4rem !important;
+}
+
+.member-info{
+    padding-top: 1.2rem;
+    border: 1px solid $third-color;
+    width: 102%;
+}
+
+
+.member-name{
+    color: $third-color;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $first-font;
+}
+
+.member-role{
+     color: $third-color;
+     font-size: 11px;
+     text-transform: uppercase;
+     font-weight: 100;
+     font-family: $first-font;
+}
+
+.hiring{
+    padding-bottom: 3rem !important;
+}
+
+.hiring-text{
+    margin-bottom: 0 !important;
+    color: $third-color;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 100;
+    font-family: $first-font;
+    letter-spacing: 1px;
+}
+
+.hiring-button{
+    width: 9rem !important;
+}
+
+.work-heading{
+    width: 79% !important;
+    margin: 3.6rem auto !important;
+    padding-left: 3rem !important;
+}
+
+.work-title{
+    font-family: $second-font;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.all-projects{
+    text-decoration: none;
+    color: $first-color;
+    font-size: 14px;
+    padding-left: 1rem !important;
+    letter-spacing: .5px;
+}
+
+.box{
+    height: 12.3rem !important;
+}
+
+.load-more{
+    margin: 4.6rem auto !important;
+    width: 9rem !important;
+}
+
+.review-section{
+     width: 100%;
+     background: linear-gradient(rgba(9, 5, 47, 0.6)),
+     url(/images/team-bg.png) center no-repeat;
+     padding-top: 2.2rem !important;
+     padding-bottom: 1rem !important;
+}
+
+.review-container{
+    margin-bottom: 2rem !important;
+}
+
+.quote{
+    font-size: 80px;
+    color: $third-color;
+    font-family: $second-font;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.review{
+    width: 58%;
+    margin: 0 auto;
+    color: $third-color;
+    font-family: $second-font;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    // letter-spacing: 1px;
+    line-height: 1.6rem;
+    padding-bottom: 4rem !important;
+}
+
+.reviewer-name{
+    color: $third-color;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.reviewer-role{
+    color: $third-color;
+    font-size: 14px;
+    text-align: center;
+}
+
+.contact-heading{
+    font-size: 22px;
+    font-family: $second-font;
+    padding-top: 4rem !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+.contact-form{
+    width: 28%;
+    margin: 2rem auto !important;
+
+}
+
+.input{
+    height: 3rem;
+}
+
+.submit-button{
+    margin-top: 2rem !important;
+    margin-bottom: 2.5rem !important;
+}
+
+.footer{
+     width: 100%;
+     background: linear-gradient(rgba(9, 5, 47, 0.6)),
+     url(/images/footer-bg.png) center no-repeat;
+}
+
+.footer-container{
+    width: 63% !important;
+    margin: 0 auto !important;
+    padding-top: 4rem !important;
+}
+
+.footer-logo{
+    margin-bottom: 1.7rem !important;
+}
+
+.footer-text{
+    color: $third-color;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
+.our-studio{
+    font-size: 14px;
+    color: $third-color;
+    text-transform: uppercase;
+    padding-top: 1.3rem !important;
+}
+
+.address-container{
+    padding-top: 1.8rem !important;
+}
+
+.address-image{
+    height: 20px !important;
+    padding-right: 1rem !important;
+}
+
+.address{
+    color: $third-color;
+    font-family: $first-font;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.newsletter{
+    background: transparent;
+    width: 70%;
+    height: 3rem !important;
+    margin: 1.8rem auto !important;
+    border: 1px solid $third-color;
+}
+
+.send-button{
+    width: 70px !important;
+    height: 40px !important;
+    margin-top: 1.9rem;
+}
+
+.copyright{
+    padding: 4rem 0;
+    padding-left: 4rem !important;
+    font-family: $first-font;
+}

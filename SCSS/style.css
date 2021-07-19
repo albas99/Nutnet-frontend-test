@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap");
 .page {
-  width: 100%;
-  height: 100vh;
+  width: 100% !important;
+  height: 100vh !important;
 }
 
 .header-section {
@@ -42,7 +42,7 @@
   text-transform: uppercase;
 }
 
-.active {
+.active-navlink {
   color: #00e0d0;
 }
 
@@ -273,5 +273,247 @@
     width: 100% !important;
     padding: 0 !important;
   }
+}
+
+.team-section {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 5, 47, 0.6))), url(/images/team-bg.png) center no-repeat;
+  background: linear-gradient(rgba(9, 5, 47, 0.6)), url(/images/team-bg.png) center no-repeat;
+  margin-top: 7rem !important;
+}
+
+.team {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1.3px;
+}
+
+.team-separator {
+  border: 1px solid white;
+  width: 3rem !important;
+  margin: 0 auto !important;
+}
+
+.team-heading {
+  padding-top: 4rem;
+}
+
+.team-text {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.member-block {
+  width: 63% !important;
+  margin-top: 3rem !important;
+  margin-bottom: 4rem !important;
+}
+
+.member-info {
+  padding-top: 1.2rem;
+  border: 1px solid white;
+  width: 102%;
+}
+
+.member-name {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.member-role {
+  color: white;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+}
+
+.hiring {
+  padding-bottom: 3rem !important;
+}
+
+.hiring-text {
+  margin-bottom: 0 !important;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+}
+
+.hiring-button {
+  width: 9rem !important;
+}
+
+.work-heading {
+  width: 79% !important;
+  margin: 3.6rem auto !important;
+  padding-left: 3rem !important;
+}
+
+.work-title {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.all-projects {
+  text-decoration: none;
+  color: #09052f;
+  font-size: 14px;
+  padding-left: 1rem !important;
+  letter-spacing: .5px;
+}
+
+.box {
+  height: 12.3rem !important;
+}
+
+.load-more {
+  margin: 4.6rem auto !important;
+  width: 9rem !important;
+}
+
+.review-section {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 5, 47, 0.6))), url(/images/team-bg.png) center no-repeat;
+  background: linear-gradient(rgba(9, 5, 47, 0.6)), url(/images/team-bg.png) center no-repeat;
+  padding-top: 2.2rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.review-container {
+  margin-bottom: 2rem !important;
+}
+
+.quote {
+  font-size: 80px;
+  color: white;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.review {
+  width: 58%;
+  margin: 0 auto;
+  color: white;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.6rem;
+  padding-bottom: 4rem !important;
+}
+
+.reviewer-name {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.reviewer-role {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  padding-top: 4rem !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-form {
+  width: 28%;
+  margin: 2rem auto !important;
+}
+
+.input {
+  height: 3rem;
+}
+
+.submit-button {
+  margin-top: 2rem !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.footer {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(9, 5, 47, 0.6))), url(/images/footer-bg.png) center no-repeat;
+  background: linear-gradient(rgba(9, 5, 47, 0.6)), url(/images/footer-bg.png) center no-repeat;
+}
+
+.footer-container {
+  width: 63% !important;
+  margin: 0 auto !important;
+  padding-top: 4rem !important;
+}
+
+.footer-logo {
+  margin-bottom: 1.7rem !important;
+}
+
+.footer-text {
+  color: white;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.our-studio {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  padding-top: 1.3rem !important;
+}
+
+.address-container {
+  padding-top: 1.8rem !important;
+}
+
+.address-image {
+  height: 20px !important;
+  padding-right: 1rem !important;
+}
+
+.address {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.newsletter {
+  background: transparent;
+  width: 70%;
+  height: 3rem !important;
+  margin: 1.8rem auto !important;
+  border: 1px solid white;
+}
+
+.send-button {
+  width: 70px !important;
+  height: 40px !important;
+  margin-top: 1.9rem;
+}
+
+.copyright {
+  padding: 4rem 0;
+  padding-left: 4rem !important;
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
